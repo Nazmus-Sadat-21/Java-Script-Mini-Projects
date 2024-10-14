@@ -6,10 +6,14 @@ const para2 = document.getElementById("winloss");
 let win =0;
 let loss=0;
 
+
 btn.addEventListener("click",(e)=>{
     e.preventDefault();  
     let randomnum = Math.floor(Math.random()*10)+1;
-    if(inputbox.value==""){
+    if(inputbox.value <1 || inputbox.value>10){
+        alert("please pick a number between 1-10")
+    }
+    else if(inputbox.value==""){
         alert("Enter a number");
        
     }
@@ -25,7 +29,7 @@ btn.addEventListener("click",(e)=>{
     para2.innerHTML =`Win: ${win} , Loss: ${loss}`;
     inputbox.value="";
     
-});
+ });
 
 
 
