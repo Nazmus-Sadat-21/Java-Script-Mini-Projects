@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Product Management</h1>
+
+    <div class="section">
+        <p class="unit-price">Unit Price: <span>$1000</span></p>
+    </div>
+
+    <div class="section quantity-section">
+        <label>Quantity:</label>
+        <div class="quantity-box">
+            <button id="minus">-</button>
+            <input type="text" value="0" min="0" id="quantity">
+            <button id="plus">+</button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="section">
+        <p class="total-price">Total Price: <span id="price">$0</span></p>
+    </div>
+
+    <div class="coupon-box" id="cupon">
+        <span class="icon">!</span>
+        <p id="mssg"></p>
+    </div>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
