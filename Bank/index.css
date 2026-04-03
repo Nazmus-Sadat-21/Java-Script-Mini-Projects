@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#main{
+    height: 100%;
+    width: 100%r;
+    
+}
+
+.heading{
+     height: 100%;
+    width: 100%r;
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(89, 10, 10, 0.818);
+    padding-left: 55px;
+}
+#name{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(89, 10, 10, 0.818);
+    padding-right: 65px;
+    padding-top: 15px;
+}
+#money{
+     padding-top: 30px;
+     height: 100%;
+     width: 100%;
+     display: flex;
+     /* align-items: center; */
+     justify-content: space-around;
+}
+#deposite{
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.758);
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px
+    
+}
+#withdraw{
+    height: 200px;
+    width: 400px;
+     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.758);
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px
+}
+#total{
+    height: 200px;
+    width: 400px;
+     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.758);
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px
+
+}
+h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#enter{
+     padding-top: 80px;
+     height: 100%;
+     width: 100%;
+     display: flex;
+     /* align-items: center; */
+     justify-content: space-around;
+}
+
+#e-deposite{
+    height: 220px;
+    width: 300px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 20px;  
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.749);
+    border-radius: 10px;
+}
+#e-withdraw{
+    height: 220px;
+    width: 300px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 20px;  
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.749);
+    border-radius: 10px;
+}
+
+#info{
+    height: 260px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 20px;  
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.749);
+    border-radius: 10px;
+}
+
+#i-deposite{
+    margin-top: 3px;
+    height: 40px;
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 5px;
+    color: black;
+    font-weight: bold;
+
+}
+#i-withdraw{
+     margin-top: 3px;
+    height: 40px;
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 10px;
+     height: 40px;
+    width: 260px;
+    border: none;
+    background-color: rgb(114, 8, 8);
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 5px;
+    color: rgb(232, 220, 220);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#user{
+    margin-top: 50px;
+    height: 40px;
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 5px;
+    color: black;
+    font-weight: bold;
+}
+#pin{
+    margin-top: 3px;
+    height: 40px;
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 5px;
+    color: black;
+    font-weight: bold;
+}
